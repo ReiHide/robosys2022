@@ -1,5 +1,5 @@
 #!/bin/bash -xv
-# SPDX-FileCopy rightText: 2022 Hideya Reizen
+#SPDX-FileCopy rightText: 2022 Hideya Reizen
 # SPDX-License-Identifier: BSD-3-Clause
 
 ng () {
