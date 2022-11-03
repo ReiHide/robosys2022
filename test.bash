@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xv
 # SPDX-FileCopy rightText: 2022 Hideya Reizen
 # SPDX-License-Identifier: BSD-3-Clause
 
@@ -10,7 +10,7 @@ ng () {
 res=0
 
 out=$(seq 5 | ./plus)
-[ "${out}" = 15.0 ] || ng ${LINENO}
+[ "${out}" = 15 ] || ng ${LINENO}
 
 
 out=$(echo あ | ./plus)
