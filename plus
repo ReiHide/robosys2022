@@ -4,12 +4,17 @@
 
 
 import sys
+import math
 
-ans = 0
+plus = 0.0
+sqrt = 0.0
+root = 0.0
+log = 0.0
+
 for line in sys.stdin:
-    try:
-        ans += int(line)
-    except:
-        ans += float(line) 
+        plus += float(line)
+        sqrt += float(line)**2
+        root += (math.sqrt(int(line)))
+        log += math.log(int(line))
 
-print(ans)
+print(plus, sqrt, root, log)
