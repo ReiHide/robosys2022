@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # SPDX-FileCopyrightText: 2022 Hideya Reizen
-# SPDX-License-Identifier: BSD-3-Clause0
+# SPDX-License-Identifier: BSD-3-Clause
+
 
 import sys
 
