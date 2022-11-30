@@ -19,10 +19,10 @@ git clone git@github.com:ReiHide/robosys2022.git
  
 ## 必要ソフトウェア
 * Python
-  * テスト済み: 3.7～3.10
+  * テスト済み: Python 3.7～3.10
 
 ## ライセンス
-・BSDライセンスが適用されます。詳細はLICENSE.md を参照してください。
+・BSDライセンスが適用されます。詳細は LICENSE を参照してください。
 
 ## テスト環境
 * Ubuntu
