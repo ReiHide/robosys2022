@@ -5,14 +5,15 @@
 ![test](https://github.com/ReiHide/robosys2022/actions/workflows/test.yml/badge.svg)
 
 ## インストール方法
-*git clone git@github.com:ReiHide/robosys2022.git*
+git clone git@github.com:ReiHide/robosys2022.git
+
 ## 実行方法
 * 入力例
 
-*seq 2 4 | ./sum*
+seq 2 4 | ./sum
 * 出力例
 
-*9.0 29.0 5.146264369941973 3.1780538303479453*
+9.0 29.0 5.146264369941973 3.1780538303479453
  
 ## 必要ソフトウェア
 * Python
