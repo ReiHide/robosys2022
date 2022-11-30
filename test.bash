@@ -9,14 +9,14 @@ ng () {
 
 res=0
 
-out=$(seq 5 | ./plus)
+out=$(seq 5 | ./sum)
 [ "${out}" = "15.0 55.0 8.382332347441762 4.787491742782046" ] || ng ${LINENO}
 
-out=$(echo あ | ./plus)
+out=$(echo あ | ./sum)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
-out=$(echo | ./plus)
+out=$(echo | ./sum)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
