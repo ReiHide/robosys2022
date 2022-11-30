@@ -17,4 +17,5 @@ for line in sys.stdin:
         root += (math.sqrt(int(line)))
         log += math.log(int(line))
 
-print(plus, sqrt, root, log)
+blank = ""
+print(plus, blank, sqrt, blank, root, blank, log)
