@@ -9,7 +9,7 @@
 ## インストール方法
 git clone git@github.com:ReiHide/robosys2022.git
 
-## 実行方法
+## 実行例
 * 入力例
 
 　seq 2 4 | ./sum
